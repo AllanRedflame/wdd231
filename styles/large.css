@@ -5,3 +5,48 @@
 #hamburger {
     display: none;
 }
+
+nav {
+    font-size: 275%;
+    display: flex;
+    align-items: center;
+
+}
+
+header {
+    font-size: 200%;
+    color: #bc4749;
+        grid-column-start(1, 3fr);
+
+}
+
+#header-container {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px;
+    place-items: center;
+
+    
+}
+
+main {
+    background-color: #f2e8cf;
+    margin: 50px;
+
+}
+
+
+#header-logo {
+    width: 50%;
+    margin: 20px;
+}
+
+nav a {
+    color: black;
+    margin-right: 30px;
+    margin-left:15px;
+        text-decoration: none;
+
+
+}
