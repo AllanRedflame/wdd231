@@ -13,6 +13,7 @@ nav {
 
 a:hover {
     background-color: #ab9595;
+    border-radius: 10px;
     transition: 0.2s;
 }
 
@@ -125,7 +126,6 @@ nav a {
     text-align: center;
 
 
-    row-gap: 20px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -135,6 +135,8 @@ nav a {
     border-radius: 40px;
     margin-left: 10px;
     margin-right: 10px;
+        margin-bottom: 20px;
+
 }
 
 .bot-row-course {
@@ -142,4 +144,5 @@ nav a {
     border-radius: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
