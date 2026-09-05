@@ -155,9 +155,11 @@ footer {
 }
 
 #credit-score {
-    grid-column: 2;
+    grid-column-start: 2;
     grid-row: 1;
-        text-align: center;
+    text-align: center;
+    font-size: 150%;
+    background-color: #bc4749; 
 
 }
 
@@ -165,7 +167,6 @@ footer img, footer a{
     grid-row: 2;
     grid-column: 2;
     height: 40px;
-    justify-content: left;
 }
 
 #github-icon {
@@ -188,5 +189,7 @@ footer img, footer a{
     grid-row: 3;
     grid-column: 2;
     text-align: center;
+    font-size: 150%;
+    background-color: #bc4749;
 }
 
