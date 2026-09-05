@@ -13,9 +13,15 @@ nav {
 
 }
 
+a:hover {
+    background-color: #ab9595;
+    transition: 0.2s;
+}
+
 header {
     font-size: 200%;
     color: #bc4749;
+        grid-column-start(1, 3fr);
 
 }
 
@@ -45,7 +51,7 @@ nav a {
     color: black;
     margin-right: 30px;
     margin-left:15px;
-        text-decoration: none;
-
+    text-decoration: none;
+    margin: 20px
 
 }
