@@ -1,5 +1,7 @@
 const year = new Date().getFullYear();
+const modified = document.lastModified;
 
 let copyright = document.getElementById("current-year");
 
-copyright.innerHTML = `Copyright ${year}`;
+document.getElementById("last-updated").innerHTML = "Last updated: " + modified;
+copyright.innerHTML = `David Poulsen | Utah | Copyright ${year}`;
