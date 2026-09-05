@@ -67,6 +67,13 @@ nav a {
     
 }
 
+#about-me-photo{
+    place-items: center;
+    grid-row: 1;
+    grid-column: 3;
+
+}
+
 #about-me-paragraph h2 {
     background-color: #bc4749;
     margin: 20px;
@@ -79,11 +86,14 @@ nav a {
 }
 
 #student-picture {
+    display: flex;
     width: 80%;
     
+    
 }
-#about-me-photo{
+#about-me-photo h2 {
+    text-align: center;
 
-    grid-row: 1;
-    grid-column: 3;
+
 }
+
