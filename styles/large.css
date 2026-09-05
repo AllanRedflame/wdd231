@@ -20,7 +20,6 @@ a:hover {
 header {
     font-size: 200%;
     color: #bc4749;
-    grid-column-start(1, 3fr);
 
 }
 
@@ -86,12 +85,14 @@ nav a {
 
     background-color: white;
     font-size: 150%;
+    margin-left: 30px;
 
 }
 
 #student-picture {
     display: flex;
     width: 80%;
+    padding-bottom: 20px;
 
 }
 
@@ -160,6 +161,7 @@ footer {
     text-align: center;
     font-size: 150%;
     background-color: #bc4749; 
+    padding: 15px;
 
 }
 
@@ -172,22 +174,23 @@ footer img, footer a{
 #icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 25px;
 }
 
 #github-icon {
-    margin-left: 15%;
+    margin-left: 150;
 }
 
 #x-icon {
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 #linkedin-icon {
-    margin-left: 50%;
+    margin-left: 55%;
 }
 
 #facebook-icon {
-    margin-left: 70%;
+    margin-left: 85%;
 }
 #bot-row {
         background-color: #bc4749;
@@ -199,5 +202,11 @@ footer img, footer a{
     text-align: center;
     font-size: 150%;
     margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
