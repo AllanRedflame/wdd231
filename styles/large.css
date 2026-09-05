@@ -16,7 +16,6 @@ nav {
 header {
     font-size: 200%;
     color: #bc4749;
-        grid-column-start(1, 3fr);
 
 }
 
