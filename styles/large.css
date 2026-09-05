@@ -15,8 +15,7 @@ nav a:hover {
     background-color: #ab9595;
     border-radius: 10px;
     transition: 0.2s;
-    transform: scale(1.05);
-
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -165,32 +164,29 @@ footer {
 }
 
 footer img, footer a{
-    grid-row: 2;
-    grid-column: 2;
     height: 40px;
 }
 
 #icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
     padding-top: 25px;
+    display: flex;
+    justify-content: center
 }
 
-#github-icon {
-    margin-left: 150;
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+    border-radius: 30px;
+
 }
 
-#x-icon {
-    margin-left: 30%;
+#icons a {
+        padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.3s;
 }
 
-#linkedin-icon {
-    margin-left: 55%;
-}
-
-#facebook-icon {
-    margin-left: 85%;
-}
 #bot-row {
         background-color: #bc4749;
         margin-top: 30px;
