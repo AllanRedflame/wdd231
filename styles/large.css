@@ -1,3 +1,7 @@
 @media only screen and (min-width: 1580px) {
 
 }
+
+#hamburger {
+    display: none;
+}
