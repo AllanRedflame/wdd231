@@ -151,18 +151,42 @@ footer {
     background-color: white;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #credit-score {
     grid-column: 2;
     grid-row: 1;
+        text-align: center;
+
 }
 
 footer img, footer a{
     grid-row: 2;
-    height: 30px;
+    grid-column: 2;
+    height: 40px;
+    justify-content: left;
 }
 
-#current-year, lastModified {
-    grid-row: 3;
+#github-icon {
+    margin-left: 15%;
 }
+
+#x-icon {
+    margin-left: 35%;
+}
+
+#linkedin-icon {
+    margin-left: 50%;
+}
+
+#facebook-icon {
+    margin-left: 70%;
+}
+
+#current-year, #lastModified {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+}
+
