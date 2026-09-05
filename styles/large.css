@@ -58,7 +58,6 @@ nav a {
 
 #about-me {
     display:grid;
-    grid-column: 
     grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
     grid-template-rows: 1fr 1fr;     /* 2 rows */
 }
