@@ -55,3 +55,19 @@ nav a {
     margin: 20px
 
 }
+
+#about-me {
+    display:grid;
+    grid-column: 
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+    grid-template-rows: 1fr 1fr;     /* 2 rows */
+}
+
+#about-me-paragraph{
+    grid-column:1;
+    grid-row:2;
+}
+
+#about-me-paragraph h2{
+    background-color: #bc4749;
+}
