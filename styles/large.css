@@ -11,10 +11,12 @@ nav {
 
 }
 
-a:hover {
+nav a:hover {
     background-color: #ab9595;
     border-radius: 10px;
     transition: 0.2s;
+    transform: scale(1.05);
+
 }
 
 header {
