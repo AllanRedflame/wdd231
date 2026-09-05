@@ -58,16 +58,17 @@ nav a {
 
 #about-me {
     display:grid;
-
     grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+    
 }
 
 #about-me-paragraph{
     grid-column: 1/3;
-    
+    margin-right: 10px;
+    background-color: white;
 }
 
-#about-me-photo{
+#about-me-photo {
     place-items: center;
     grid-row: 1;
     grid-column: 3;
@@ -76,24 +77,42 @@ nav a {
 
 #about-me-paragraph h2 {
     background-color: #bc4749;
-    margin: 20px;
+    font-size: 200%;
     text-align: center;
+    
     
 }
 
 #about-me-paragraph p {
-    margin: 20px;
+
+        background-color: white;
+        font-size: 150%;
+
 }
 
 #student-picture {
     display: flex;
     width: 80%;
     
-    
 }
+#about-me-photo {
+    background-color: white;
+    margin-left: 10px;
+    
+
+
+}
+
 #about-me-photo h2 {
+    font-size: 200%;
+}
+
+#student-photo-container {
+    background-color: #bc4749;
+    align-self: stretch;
+    justify-self: stretch;
     text-align: center;
 
-
 }
+
 
