@@ -146,3 +146,23 @@ nav a {
     margin-right: 10px;
     margin-bottom: 20px;
 }
+
+footer {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#credit-score {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+footer img, footer a{
+    grid-row: 2;
+    height: 30px;
+}
+
+#current-year, lastModified {
+    grid-row: 3;
+}
