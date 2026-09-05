@@ -7,4 +7,6 @@ html body {
 
 #header-container {
     background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
