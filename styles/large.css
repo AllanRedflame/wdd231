@@ -58,15 +58,26 @@ nav a {
 
 #about-me {
     display:grid;
+
     grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
     grid-template-rows: 1fr 1fr;     /* 2 rows */
 }
 
 #about-me-paragraph{
     grid-column:1;
-    grid-row:2;
+    grid-row:1;
 }
 
 #about-me-paragraph h2{
     background-color: #bc4749;
+}
+
+#student-picture {
+    width: 80%;
+    
+}
+#about-me-photo{
+
+    grid-row: 1;
+    grid-column: 3;
 }
