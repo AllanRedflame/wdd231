@@ -5,20 +5,39 @@
     }
 
     header {
-        font-size: 100%;
+
         color: #bc4749;
     }
     
     body h2 {
         background-color: blue;
     }
-
+    
 #header-logo {
     width: 40%;
     margin: 10px;
+    margin-right: auto;
 }
 
+header span {
+    text-align: center;
+    font-size: 110%;
+}
+
+#hamburger {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #bc4749;
+}
+
+
     nav {
+        display: none;
+    }
+    
+    nav.show {
         margin: 100px;
         margin-top: 20px;
         display: grid;
@@ -36,9 +55,9 @@
         transition: 0.3s;
     }
 
-    nav a:hover {
-        background-color: #ffa5a6;
-        transition: 0.3s;
+        nav a:hover {
+            background-color: #ffa5a6;
+            transition: 0.3s;
 
     }
 
