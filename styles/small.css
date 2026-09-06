@@ -99,6 +99,7 @@ header span {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+        padding
     }
     .top-row-course h2 {
         margin: 10px;
@@ -107,6 +108,7 @@ header span {
 
     .bot-row-course h2 {
         margin: 10px;
+        padding-bottom: 
     }
 
     .bot-row-course {
@@ -119,11 +121,20 @@ header span {
         margin-top: 15px;
     }
 
+    #icons {
+
+
+    }
+
     #icons img {
 
         width: 10%;
     }
 
+    #about-me p {
+        padding: 5px;
+    }
+    
     #icons {
         padding: 5px;
         padding-top: 5px;
