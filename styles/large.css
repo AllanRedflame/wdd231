@@ -1,92 +1,210 @@
-@media screen and (max-width: 720px) {
-
-    header{
-        display: grid;
-    }
-
-    header {
-
-        color: #bc4749;
-    }
-    
-    body h2 {
-        background-color: #bc4749;
-    }
-    
-#header-logo {
-    width: 40%;
-    margin: 10px;
-    margin-right: auto;
-}
-
-header span {
-    text-align: center;
-    font-size: 110%;
-}
+@media only screen and (max-width: 1580px) and (min-width: 721px) {
 
 #hamburger {
-    margin-left: auto;
-    margin-right: 20px;
-    font-size: 30px;
-    text-decoration: none;
+    display: none;
+}
+
+nav {
+    font-size: 275%;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+
+}
+
+nav a:hover {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    font-size: 200%;
     color: #bc4749;
 }
 
+#header-container {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px;
+    place-items: center;
 
-    nav {
-        display: none;
-    }
-    
-    nav.show {
+}
 
-        margin-top: 10px;
-        display: grid;
-        text-align: center;
-        padding: 10px
+main {
+    background-color: #f2e8cf;
+    margin: 50px;
 
-    }
+}
 
-    nav a {
-        padding: 5px;
-        margin: 5px;
-        text-decoration: none;
-        color: black;
+
+#header-logo {
+    width: 50%;
+    margin: 20px;
+}
+
+nav a {
+    color: black;
+    margin-right: 30px;
+    margin-left: 15px;
+    text-decoration: none;
+    margin: 20px
+}
+
+#about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* 3 columns */
+
+}
+
+#about-me-paragraph {
+    grid-column: 1/3;
+    margin-right: 10px;
+    background-color: #eae0d5;}
+
+#about-me-photo {
+    place-items: center;
+    grid-row: 1;
+    grid-column: 3;
+
+}
+
+#about-me-paragraph h2 {
+    background-color: #bc4749;
+    font-size: 200%;
+    text-align: center;
+    margin-top: auto;
+
+
+}
+
+#about-me-paragraph p {
+    font-size: 150%;
+    margin-left: 30px;
+
+}
+
+#student-picture {
+    display: flex;
+    width: 80%;
+    padding-bottom: 20px;
+
+}
+
+#about-me-photo {
+    background-color: #eae0d5;    
+    margin-left: 10px;
+
+
+
+}
+
+#about-me-photo h2 {
+    font-size: 200%;
+    margin-top: auto;
+}
+
+#student-photo-container {
+    background-color: #bc4749;
+    align-self: stretch;
+    justify-self: stretch;
+    text-align: center;
+
+}
+
+#web-courses {
+    text-align: center;
+    background-color: #bc4749;
+    margin: 20px;
+    padding: 10px;
+}
+
+#courses {
+    display: grid;
+    text-align: center;
+
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.top-row-course {
+    background-color: #bc4749;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+        margin-bottom: 20px;
+
+}
+
+.bot-row-course {
+    background-color: #bc4749;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f2e8cf;;
+    margin: 50px;
+}
+
+#top-row {
+    display: grid;
+}
+
+#credit-score {
+    text-align: center;
+    font-size: 150%;
+    background-color: #bc4749; 
+    padding: 15px;
+
+}
+
+footer img, footer a{
+    height: 40px;
+}
+
+#icons {
+
+    padding-top: 25px;
+    display: flex;
+    justify-content: center
+}
+
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+    border-radius: 30px;
+
+}
+
+#icons a {
+        padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.3s;
+}
+
+#bot-row {
         background-color: #bc4749;
-        transition: 0.3s;
-    }
+        margin-top: 30px;
+}
+#current-year, #lastModified {
+    margin-top: 20px;
+    display: grid;
+    text-align: center;
+    font-size: 150%;
+    margin: 10px;
+    padding: 5px;
+}
 
-        nav a:hover {
-            background-color: #ffa5a6;
-            transition: 0.3s;
+h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
 
-    }
-
-    main {
-        background-color: #f2e8cf;
-
-    }
-
-    h1 {
-        padding: 10px;
-    }
-
-    #about-me h2 {
-        text-align: center;
-        margin-top: auto;
-    }
-
-
-    #about-me-photo {
-        display: grid;
-    background-color: red;  
-    }
-    
-    #student-picture {
-        width: 80%;
-        margin: auto;
-        
-    }
-
-    
-    
 }
