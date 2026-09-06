@@ -9,11 +9,10 @@ html body {
     background-color: #f2e8cf;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 50px;
+
     place-items: center;
 }
 
 nav {
     background-color: #f2e8cf;
-    margin: 50px;
 }
