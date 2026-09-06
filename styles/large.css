@@ -8,6 +8,7 @@ nav {
     font-size: 275%;
     display: flex;
     align-items: center;
+        margin: 50px;
 
 }
 
@@ -29,7 +30,6 @@ header {
     grid-template-columns: repeat(5, 1fr);
     margin: 50px;
     place-items: center;
-
 
 }
 
