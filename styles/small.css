@@ -1,2 +1,47 @@
 @media screen and (max-width: 720px) {
+
+    header{
+        display: grid;
+    }
+
+    header {
+        font-size: 100%;
+        color: #bc4749;
+    }
+    
+    body h2 {
+        background-color: blue;
+    }
+
+#header-logo {
+    width: 40%;
+    margin: 10px;
+}
+
+    nav {
+        margin: 100px;
+        margin-top: 20px;
+        display: grid;
+        text-align: center;
+        padding: 10px
+
+    }
+
+    nav a {
+        padding: 5px;
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+        background-color: #bc4749;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        background-color: #ffa5a6;
+        transition: 0.3s;
+
+    }
+
+    
+
 }

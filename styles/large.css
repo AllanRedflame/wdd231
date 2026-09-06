@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1580px) {}
+@media only screen and (max-width: 1580px) and (min-width: 721px) {
 
 #hamburger {
     display: none;
@@ -205,3 +205,4 @@ h1 {
     padding-top: 20px;
 }
 
+}
