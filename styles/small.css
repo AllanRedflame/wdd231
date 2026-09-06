@@ -78,7 +78,7 @@ header span {
 
     #about-me-photo {
         display: grid;
-    background-color: red;  
+    background-color: #eae0d5;  
     }
     
     #student-picture {
@@ -99,8 +99,47 @@ header span {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+        padding
+    }
+    .top-row-course h2 {
+        margin: 10px;
+        border-radius: 10px;
     }
 
+    .bot-row-course h2 {
+        margin: 10px;
+        padding-bottom: 
+    }
 
-    
+    .bot-row-course {
+        padding-bottom: 2px;
+    }
+
+    #top-row {
+       background-color: #f2e8cf;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #icons img {
+
+        width: 10%;
+    }
+
+    #icons {
+        padding: 5px;
+        padding-top: 5px;
+        background-color: #f2e8cf;
+    }
+
+    #icons a {
+        margin-left: 10%;
+        text-decoration: none;
+}
+
+    #bot-row {
+        margin-top: 10px;
+        background-color: #f2e8cf;
+        text-align: center;
+    }
 }
