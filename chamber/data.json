@@ -1,0 +1,11 @@
+[
+    {
+        "companyOne":"tada",
+        "address": "1450 Canyon Drive, Murray, UT 84107",
+        "phone": "801-555-1023",
+        "website": "https://mountaintechsolutions.com",
+        "imageFile": "mountaintech.webp",
+        "membershipLevel": 3,
+        "description": "Specializes in custom software development and cloud integration"
+    }
+]

@@ -18,3 +18,8 @@ nav {
 html, body {
     font-family: "Oswald", sans-serif;
 }
+
+footer {
+    background-color: #f2e8cf;;
+    margin: 50px;
+}
