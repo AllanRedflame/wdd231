@@ -1,0 +1,12 @@
+header {
+    font-size: 200%;
+}
+
+#header-container {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px;
+    place-items: center;
+
+}

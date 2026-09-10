@@ -127,8 +127,6 @@ nav a {
 #courses {
     display: grid;
     text-align: center;
-
-
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -138,7 +136,7 @@ nav a {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     grid-column: 1 / 4;
-        margin-left: 10px;
+    margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
     
