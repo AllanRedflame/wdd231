@@ -107,7 +107,8 @@ header span {
     }
     
     #student-picture {
-        width: 200px;
+        width: 80%;
+        height: auto;
         margin: auto;
         margin-bottom: 15px;
         
