@@ -36,6 +36,7 @@ html, body {
     
 #header-logo {
     width: 60px;
+    height: auto;
     margin: 10px;
     margin-right: auto;
 }

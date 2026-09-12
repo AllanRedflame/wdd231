@@ -64,7 +64,9 @@ main {
 
 #header-logo {
     width: 120px;
+    height: auto;
     margin: 20px;
+
 }
 
 nav a {
