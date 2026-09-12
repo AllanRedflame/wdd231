@@ -35,7 +35,7 @@ html, body {
     }
     
 #header-logo {
-    width: 40%;
+    width: 60px;
     margin: 10px;
     margin-right: auto;
 }
@@ -107,8 +107,9 @@ header span {
     }
     
     #student-picture {
-        width: 80%;
+        width: 200px;
         margin: auto;
+        margin-bottom: 15px;
         
     }
 
