@@ -14,6 +14,63 @@ nav {
     display: none;
 }
 
+.card {
+    background-color: #f2e8cf;    
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.topDiv {
+    background-color: red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 65px;
+}
+
+.bottomDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottomDiv img {
+    grid-column: 1;
+    padding: 10px;
+}
+
+.bottomDiv p {
+    grid-column: 2 / 4;
+}
+
+
+
+.card {
+    height: 75%;
+}
+
+.card h3 {
+    height: 50px;
+}
+
+
+
+main div img {
+    width: 175px;
+}
+
+main {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main h3 {
+    font-weight: bold;
+}
+
 html, body {
     font-family: "Oswald", sans-serif;
 }

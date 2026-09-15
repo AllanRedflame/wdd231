@@ -4,7 +4,7 @@
     "address": "1450 Canyon Drive, Murray, UT 84107",
     "phone": "801-555-1023",
     "website": "https://mountaintechsolutions.com",
-    "imageFile": "mountaintech.webp",
+    "imageFile": "images/mountainTech.webp",
     "membershipLevel": 3
   },
   {
@@ -12,7 +12,7 @@
     "address": "2200 State Street, Murray, UT 84107",
     "phone": "801-555-3344",
     "website": "https://wasatchwebdesign.com",
-    "imageFile": "wasatchweb.webp",
+    "imageFile": "images/wasatchWebDesign.webp",
     "membershipLevel": 2
   },
   {
@@ -20,7 +20,7 @@
     "address": "500 Vine Street, Murray, UT 84107",
     "phone": "801-555-9988",
     "website": "https://greenleafmarketing.com",
-    "imageFile": "greenleaf.webp",
+    "imageFile": "images/greenleafMarketing.webp",
     "membershipLevel": 1
   },
   {
@@ -28,7 +28,7 @@
     "address": "7800 Main Street, Murray, UT 84107",
     "phone": "801-555-4411",
     "website": "https://murrayfitness.com",
-    "imageFile": "murrayfitness.webp",
+    "imageFile": "images/murrayFitness.webp",
     "membershipLevel": 3
   },
   {
@@ -36,7 +36,7 @@
     "address": "3100 Commerce Way, Murray, UT 84107",
     "phone": "801-555-7722",
     "website": "https://brightpathaccounting.com",
-    "imageFile": "brightpath.webp",
+    "imageFile": "images/brightpathAccounting.webp",
     "membershipLevel": 2
   },
   {
@@ -44,7 +44,7 @@
     "address": "900 Adventure Lane, Murray, UT 84107",
     "phone": "801-555-6600",
     "website": "https://utahoutdoorrentals.com",
-    "imageFile": "outdoor.webp",
+    "imageFile": "images/utahOutdoorRentals.webp",
     "membershipLevel": 1
   },
   {
@@ -52,7 +52,7 @@
     "address": "1200 Market Street, Murray, UT 84107",
     "phone": "801-555-8899",
     "website": "https://silverspooncafe.com",
-    "imageFile": "silverspoon.webp",
+    "imageFile": "images/silverSpoonCafe.webp",
     "membershipLevel": 3
   }
 ]
