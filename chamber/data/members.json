@@ -1,0 +1,58 @@
+[
+  {
+    "companyName": "Mountain Tech Solutions",
+    "address": "1450 Canyon Drive, Murray, UT 84107",
+    "phone": "801-555-1023",
+    "website": "https://mountaintechsolutions.com",
+    "imageFile": "mountaintech.webp",
+    "membershipLevel": 3
+  },
+  {
+    "companyName": "Wasatch Web Design",
+    "address": "2200 State Street, Murray, UT 84107",
+    "phone": "801-555-3344",
+    "website": "https://wasatchwebdesign.com",
+    "imageFile": "wasatchweb.webp",
+    "membershipLevel": 2
+  },
+  {
+    "companyName": "GreenLeaf Marketing",
+    "address": "500 Vine Street, Murray, UT 84107",
+    "phone": "801-555-9988",
+    "website": "https://greenleafmarketing.com",
+    "imageFile": "greenleaf.webp",
+    "membershipLevel": 1
+  },
+  {
+    "companyName": "Murray Fitness Center",
+    "address": "7800 Main Street, Murray, UT 84107",
+    "phone": "801-555-4411",
+    "website": "https://murrayfitness.com",
+    "imageFile": "murrayfitness.webp",
+    "membershipLevel": 3
+  },
+  {
+    "companyName": "BrightPath Accounting",
+    "address": "3100 Commerce Way, Murray, UT 84107",
+    "phone": "801-555-7722",
+    "website": "https://brightpathaccounting.com",
+    "imageFile": "brightpath.webp",
+    "membershipLevel": 2
+  },
+  {
+    "companyName": "Utah Outdoor Rentals",
+    "address": "900 Adventure Lane, Murray, UT 84107",
+    "phone": "801-555-6600",
+    "website": "https://utahoutdoorrentals.com",
+    "imageFile": "outdoor.webp",
+    "membershipLevel": 1
+  },
+  {
+    "companyName": "Silver Spoon Café",
+    "address": "1200 Market Street, Murray, UT 84107",
+    "phone": "801-555-8899",
+    "website": "https://silverspooncafe.com",
+    "imageFile": "silverspoon.webp",
+    "membershipLevel": 3
+  }
+]
