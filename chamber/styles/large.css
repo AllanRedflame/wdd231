@@ -1,18 +1,64 @@
-#header-container {
-    background-color: #f2e8cf;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    font-size: 170%;
-    place-items: center;
+#hamburger {
+    display: none;
 }
 
 nav {
-    background-color: #f2e8cf;
+    font-size: 275%;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+
+}
+
+#dropdown-a {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
 }
 
 #nav-dropdown {
     display: none;
 }
+
+
+nav a:hover {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    font-size: 200%;
+}
+
+#header-container {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px;
+    place-items: center;
+
+}
+
+
+
+#header-logo {
+    width: 120px;
+    height: auto;
+    margin: 20px;
+
+}
+
+nav a {
+    color: black;
+    margin-right: 30px;
+    margin-left: 15px;
+    text-decoration: none;
+    margin: 20px
+}
+
 
 .card {
     background-color: #f2e8cf;    
@@ -47,6 +93,28 @@ nav {
     grid-column: 2 / 4;
 }
 
+#buttons {
+    margin: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+#buttons span {
+    background-color: #f2e8cf;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+#buttons span:hover {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
 
 
 .card {
@@ -67,7 +135,16 @@ main div img {
 
 }
 
-main {
+main.on {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.card.on {
+    margin-bottom: 20px;
+}
+
+main.off {
     margin-left: 40px;
     margin-right: 40px;
     display: grid;
@@ -81,6 +158,28 @@ main h3 {
 
 html, body {
     font-family: "Oswald", sans-serif;
+}
+
+#grid.on {
+    background-color: #b1a0a0;
+}
+
+#list.on {
+    background-color: #b1a0a0;
+}
+
+#grid.off {
+    background-color: #f2e8cf;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);    
+}
+
+#list.off {
+    background-color: #f2e8cf;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); 
 }
 
 

@@ -6,12 +6,21 @@ html body {
     overflow-x: hidden;
 }
 
-#header-container {
-    background-color: #f2e8cf;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+header nav {
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    grid-column: 4;
 
-    place-items: center;
+}
+
+header nav a {
+    margin: 20px;
+    margin-left: auto;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
 }
 
 nav {
@@ -34,6 +43,18 @@ nav {
     margin: 50px;
 
 }
+
+#dropdown-a {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
+}
+
+#nav-dropdown {
+    display: none;
+}
+
 
 nav a:hover {
     background-color: #ab9595;
@@ -116,6 +137,7 @@ nav a {
     width: 80%;
     height: auto;
     padding-bottom: 20px;
+    margin: auto;
 
 }
 
