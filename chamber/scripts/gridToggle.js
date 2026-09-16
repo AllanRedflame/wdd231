@@ -31,7 +31,7 @@ function setMode(mode) {
 }
 
 // ⭐ Start in GRID mode (off = grid)
-setMode("off");
+setMode("on");
 
 // Event listeners
 buttonList.addEventListener("click", () => setMode("on"));

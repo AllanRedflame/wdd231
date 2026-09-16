@@ -369,6 +369,14 @@ main.on {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+#grid.on {
+    background-color: #a49292;
+}
+
+#list.on {
+    background-color: #a49292;
+}
+
 
 .card {
     margin: auto;
