@@ -1,5 +1,5 @@
 const hamburger = document.getElementById("hamburger");
-const menu = document.getElementById("nav-box");
+const menu = document.getElementById("nav-dropdown");
 
 hamburger.addEventListener('click', () => {
   menu.classList.toggle('show');

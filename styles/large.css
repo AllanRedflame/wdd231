@@ -1,4 +1,4 @@
-@media only screen and (min-width: 721px) {
+@media only screen and (min-width: 800px) {
 
 
 html body {
@@ -30,7 +30,6 @@ nav {
 html, body {
     font-family: "Oswald", sans-serif;
 }
-
 
 #hamburger {
     display: none;
@@ -76,7 +75,7 @@ header {
 
 }
 
-main {
+#home-main {
     background-color: #f2e8cf;
     margin: 50px;
 
@@ -203,7 +202,7 @@ nav a {
     grid-row: 2;
 }
 
-footer {
+#home-footer {
     background-color: #f2e8cf;;
     margin: 50px;
 }
@@ -220,7 +219,7 @@ footer {
 
 }
 
-footer img, footer a {
+#home-footer img, #home-footer a {
     height: 40px;
 }
 
@@ -268,5 +267,247 @@ h1 {
     transition: 0.2s;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    background-color: #f2e8cf;    
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.topDiv {
+    background-color: #bc4749;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 65px;
+}
+
+.bottomDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.bottomDiv img {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    padding: 10px;
+}
+
+.bottomDiv p {
+    grid-column: 2 / 4;
+}
+
+#buttons {
+    margin: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+#buttons span {
+    background-color: #f2e8cf;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+#buttons span:hover {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.card {
+    margin: auto;
+}
+
+.card h3 {
+    height: 50px;
+}
+
+#chamber-main p {
+    margin: 30px;
+    margin: auto;
+}
+
+#chamber-main div img {
+    width: 175px;
+}
+
+#chamber-main.on {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.card.on {
+    margin-bottom: 20px;
+}
+
+#chamber-main.off {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+#chamber-main h3 {
+    font-weight: bold;
+}
+
+html, body {
+    font-family: "Oswald", sans-serif;
+}
+
+#grid.on {
+    background-color: #b1a0a0;
+}
+
+#list.on {
+    background-color: #b1a0a0;
+}
+
+#grid.off {
+    background-color: #f2e8cf;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);    
+}
+
+#list.off {
+    background-color: #f2e8cf;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+header nav {
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    grid-column: 4;
+
+}
+
+header nav a {
+    margin: 20px;
+    margin-left: auto;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#chamber-a {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+nav a:hover {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+#header-container {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px;
+    place-items: center;
+
+}
+
+#chamber-footer {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+#chamber-bot-row {
+    margin-top: 0px;
+    margin: 0%;
+}
+
+#chamber-icons img {
+    width: 40px;
+    margin: auto;
+    margin-bottom: 50%;
+    margin-top: 50%;
+    padding: 5px;
+
+}
+
+#chamber-icons a {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+#chamber-icons a:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+#chamber-icons {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+}
+
+#chamber-footer p {
+    margin: 0px;
+}
+
 
 }

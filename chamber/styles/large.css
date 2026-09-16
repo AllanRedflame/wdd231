@@ -42,8 +42,6 @@ header {
 
 }
 
-
-
 #header-logo {
     width: 120px;
     height: auto;
@@ -125,17 +123,17 @@ nav a {
     height: 50px;
 }
 
-main p {
+#chamber-main p {
     margin: 30px;
     margin: auto;
 }
 
-main div img {
+#chamber-main div img {
     width: 175px;
 
 }
 
-main.on {
+#chamber-main.on {
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -144,7 +142,7 @@ main.on {
     margin-bottom: 20px;
 }
 
-main.off {
+#chamber-main.off {
     margin-left: 40px;
     margin-right: 40px;
     display: grid;
@@ -152,7 +150,7 @@ main.off {
     gap: 20px;
 }
 
-main h3 {
+#chamber-main h3 {
     font-weight: bold;
 }
 
@@ -229,7 +227,7 @@ nav a:hover {
 
 }
 
-footer {
+#chamber-footer {
     background-color: #f2e8cf;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -238,12 +236,12 @@ footer {
     padding: 10px;
 }
 
-#bot-row {
+#chamber-bot-row {
     margin-top: 0px;
     margin: 0%;
 }
 
-#icons img {
+#chamber-icons img {
     width: 40px;
     margin: auto;
     margin-bottom: 50%;
@@ -252,22 +250,22 @@ footer {
 
 }
 
-#icons a {
+#chamber-icons a {
     transform: scale(1);
     transition: 0.3s;
 }
 
-#icons a:hover {
+#chamber-icons a:hover {
     transform: scale(1.5);
     transition: 0.3s;
     border-radius: 30px;
 }
 
-#icons {
+#chamber-icons {
     display: flex;
-  justify-content: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items horizontally */
 }
 
-footer p {
+#chamber-footer p {
     margin: 0px;
 }

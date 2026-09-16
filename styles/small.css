@@ -11,6 +11,8 @@ html body {
     grid-template-columns: repeat(3, 1fr);
 
     place-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
@@ -54,13 +56,17 @@ header span {
     color: #bc4749;
 }
 
+#nav-box {
+    display: none;
+}
+
+
 
     nav {
         display: none;
     }
     
     nav.show {
-
         margin-top: 10px;
         display: grid;
         text-align: center;
@@ -87,7 +93,7 @@ header span {
         background-color: #ffa5a6;
     }
 
-    main {
+    #home-main {
         background-color: #f2e8cf;
 
     }
@@ -104,7 +110,7 @@ header span {
 
     #about-me-photo {
         display: grid;
-    background-color: #eae0d5;  
+        background-color: #eae0d5;  
     }
     
     #student-picture {
@@ -161,10 +167,13 @@ header span {
         padding: 5px;
         padding-top: 5px;
         background-color: #f2e8cf;
+        display: flex;
+        justify-content: center;
     }
 
     #icons a {
-        margin-left: 10%;
+        margin-left: 4%;
+        margin-right: 4%;
         text-decoration: none;
 }
 
@@ -173,4 +182,108 @@ header span {
         background-color: #f2e8cf;
         text-align: center;
     }
+
+    #grid.on {
+        background-color: #b1a0a0;
+        border-radius: 10px;
+    }
+
+    #list.on {
+        background-color: #b1a0a0;
+        border-radius: 10px;
+    }
+
+    #grid.off {
+        background-color: #f2e8cf;
+        border-radius: 10px;
+        transition: 0.2s;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);    
+    }
+
+    #list.off {
+        background-color: #f2e8cf;
+        border-radius: 10px;
+        transition: 0.2s;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); 
+    }
+
+    #chamber-main.on {
+        display: grid;
+        grid-template-rows: repeat(7, 1fr);
+        text-align: center;
+        margin: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #chamber-main.off {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    #chamber-main.off {
+        text-align: center;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    .card h3 {
+        background-color: #bc4749;
+        margin-top: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        font-size: 75%;
+    }
+    .card {
+        background-color: #f2e8cf;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 60%;
+    }
+
+    #buttons {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #buttons div{
+        margin: 5px;
+    }
+    #buttons div span{
+        padding: 5px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+#chamber-footer {
+    background-color: #f2e8cf;
+    padding: 5px;
+}
+
+#chamber-footer img {
+    width: 75px;
+}
+
+#chamber-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#chamber-icons img{
+    padding: 5px;
+}
+
 }
