@@ -320,7 +320,13 @@ main.on {
 }
 
 
+#lastModified {
+    font-size: 100%;
+}
 
+#current-year {
+    font-size: 100%;
+}
 
 
 .card.off .topDiv {
