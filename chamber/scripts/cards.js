@@ -1,14 +1,17 @@
+// -------------------------------
+// LOAD JSON + BUILD CARDS
+// -------------------------------
 async function loadLocalData() {
   try {
     const response = await fetch('./data/members.json');
-    
+
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    
+
     const data = await response.json();
     return data;
-    
+
   } catch (error) {
     console.error("Could not fetch the local JSON file:", error);
   }
@@ -17,6 +20,7 @@ async function loadLocalData() {
 loadLocalData().then(data => {
   const main = document.querySelector("main");
 
+  // Build cards
   for (let i = 0; i < data.length; i++) {
 
     const div = document.createElement("div");
@@ -30,14 +34,12 @@ loadLocalData().then(data => {
     const topDiv = document.createElement("div");
 
     image.src = data[i].imageFile;
-    image.alt = String(data[i].imageFile);
+    image.alt = data[i].companyName;
 
     header.textContent = data[i].companyName;
     address.textContent = `Address: ${data[i].address}`;
     phone.textContent = `Phone: ${data[i].phone}`;
     website.textContent = data[i].website;
-
-    // ⭐ NEW loyalty tier text
     loyalty.textContent = `Loyalty Tier: ${data[i].loyaltyTier}`;
 
     div.classList.add("card");
@@ -49,13 +51,54 @@ loadLocalData().then(data => {
     bottomDiv.appendChild(address);
     bottomDiv.appendChild(phone);
     bottomDiv.appendChild(website);
-    bottomDiv.appendChild(loyalty);   
+    bottomDiv.appendChild(loyalty);
 
     div.appendChild(topDiv);
     div.appendChild(bottomDiv);
 
     main.appendChild(div);
   }
+
+  // ⭐ NOW that cards exist, initialize mode
+  setMode("on");   // or "off" if you want grid first
 });
 
-loadLocalData();
+
+// -------------------------------
+// GRID/LIST TOGGLE SYSTEM
+// -------------------------------
+const buttonList = document.getElementById("list");
+const buttonGrid = document.getElementById("grid");
+const main = document.querySelector("main");
+
+function setMode(mode) {
+  const cards = document.querySelectorAll(".card");
+
+  // Update cards
+  cards.forEach(card => {
+    card.classList.remove("on", "off");
+    card.classList.add(mode);
+  });
+
+  // Update main
+  main.classList.remove("on", "off");
+  main.classList.add(mode);
+
+  // Update buttons
+  buttonList.classList.remove("on", "off");
+  buttonGrid.classList.remove("on", "off");
+
+  if (mode === "on") {
+    // LIST mode
+    buttonList.classList.add("on");
+    buttonGrid.classList.add("off");
+  } else {
+    // GRID mode
+    buttonList.classList.add("off");
+    buttonGrid.classList.add("on");
+  }
+}
+
+// Event listeners
+buttonList.addEventListener("click", () => setMode("on"));
+buttonGrid.addEventListener("click", () => setMode("off"));
