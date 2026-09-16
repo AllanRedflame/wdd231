@@ -22,6 +22,7 @@ nav {
 }
 
 
+
 nav a:hover {
     background-color: #ab9595;
     border-radius: 10px;
@@ -29,9 +30,7 @@ nav a:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-header {
-    font-size: 200%;
-}
+
 
 #header-container {
     background-color: #f2e8cf;
@@ -234,7 +233,9 @@ nav a:hover {
     text-align: center;
     margin: 50px;
     padding: 10px;
+    font-size: 1rem;
 }
+
 
 #chamber-bot-row {
     margin-top: 0px;
@@ -253,6 +254,10 @@ nav a:hover {
 #chamber-icons a {
     transform: scale(1);
     transition: 0.3s;
+}
+
+#current-year {
+    font-size: 20px;
 }
 
 #chamber-icons a:hover {

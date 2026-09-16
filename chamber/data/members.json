@@ -5,15 +5,15 @@
     "phone": "801-555-1023",
     "website": "https://mountaintechsolutions.com",
     "imageFile": "images/mountainTech.webp",
-    "membershipLevel": 3
+    "loyaltyTier": "Golden"
   },
   {
     "companyName": "Wasatch Web Design",
     "address": "2200 State Street, Murray, UT 84107",
     "phone": "801-555-3344",
     "website": "https://wasatchwebdesign.com",
-    "imageFile": "images/wasatchWebDesign.webp",
-    "membershipLevel": 2
+    "imageFile": "../images/wasatchWebDesign.webp",
+    "loyaltyTier": "Silver"
   },
   {
     "companyName": "GreenLeaf Marketing",
@@ -21,7 +21,7 @@
     "phone": "801-555-9988",
     "website": "https://greenleafmarketing.com",
     "imageFile": "images/greenleafMarketing.webp",
-    "membershipLevel": 1
+    "loyaltyTier": "Bronze"
   },
   {
     "companyName": "Murray Fitness Center",
@@ -29,7 +29,7 @@
     "phone": "801-555-4411",
     "website": "https://murrayfitness.com",
     "imageFile": "images/murrayFitness.webp",
-    "membershipLevel": 3
+    "loyaltyTier": "Golden"
   },
   {
     "companyName": "BrightPath Accounting",
@@ -37,7 +37,7 @@
     "phone": "801-555-7722",
     "website": "https://brightpathaccounting.com",
     "imageFile": "images/brightpathAccounting.webp",
-    "membershipLevel": 2
+    "loyaltyTier": "Silver"
   },
   {
     "companyName": "Utah Outdoor Rentals",
@@ -45,7 +45,7 @@
     "phone": "801-555-6600",
     "website": "https://utahoutdoorrentals.com",
     "imageFile": "images/utahOutdoorRentals.webp",
-    "membershipLevel": 1
+    "loyaltyTier": "Bronze"
   },
   {
     "companyName": "Silver Spoon Café",
@@ -53,6 +53,6 @@
     "phone": "801-555-8899",
     "website": "https://silverspooncafe.com",
     "imageFile": "images/silverSpoonCafe.webp",
-    "membershipLevel": 3
+    "loyaltyTier": "Golden"
   }
 ]

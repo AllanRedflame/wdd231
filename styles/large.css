@@ -384,12 +384,15 @@ h1 {
     margin-bottom: 20px;
 }
 
+
+
 #chamber-main.off {
     margin-left: 40px;
     margin-right: 40px;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+    
 }
 
 #chamber-main h3 {
