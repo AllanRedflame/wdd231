@@ -35,10 +35,14 @@ nav {
     background-color: #f2e8cf;
 }
 
-html, body {
-    font-family: "Oswald", sans-serif;
+header, h1, nav {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 150%;
 }
 
+main, footer {
+    font-family: "Roboto", sans-serif;
+}
 #hamburger {
     display: none;
 }
@@ -68,10 +72,6 @@ nav a:hover {
     border-radius: 10px;
     transition: 0.2s;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-header {
-    font-size: 200%;
 }
 
 #header-container {

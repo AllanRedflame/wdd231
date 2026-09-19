@@ -7,7 +7,10 @@ html body {
 
 h1 {
     background-color: #f2e8cf;
-    
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 75%;
 }
 
 #header-container {
@@ -16,8 +19,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
 
     place-items: center;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 nav {
