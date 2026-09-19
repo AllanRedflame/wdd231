@@ -5,6 +5,11 @@ html body {
     overflow-x: hidden;
 }
 
+h1 {
+    background-color: #f2e8cf;
+    
+}
+
 #header-container {
     background-color: #f2e8cf;
     display: grid;
