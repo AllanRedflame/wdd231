@@ -3,7 +3,7 @@
     "companyName": "Mountain Tech Solutions",
     "address": "1450 Canyon Drive, Murray, UT 84107",
     "phone": "801-555-1023",
-    "website": "https://mountaintechsolutions.com",
+    "website": "https://techsolutions.com",
     "imageFile": "images/mountainTech.webp",
     "loyaltyTier": "Golden"
   },
@@ -11,7 +11,7 @@
     "companyName": "Wasatch Web Design",
     "address": "2200 State Street, Murray, UT 84107",
     "phone": "801-555-3344",
-    "website": "https://wasatchwebdesign.com",
+    "website": "https://wasdesign.com",
     "imageFile": "../images/wasatchWebDesign.webp",
     "loyaltyTier": "Silver"
   },
@@ -19,7 +19,7 @@
     "companyName": "GreenLeaf Marketing",
     "address": "500 Vine Street, Murray, UT 84107",
     "phone": "801-555-9988",
-    "website": "https://greenleafmarketing.com",
+    "website": "https://greenleaf.com",
     "imageFile": "images/greenleafMarketing.webp",
     "loyaltyTier": "Bronze"
   },
@@ -43,7 +43,7 @@
     "companyName": "Utah Outdoor Rentals",
     "address": "900 Adventure Lane, Murray, UT 84107",
     "phone": "801-555-6600",
-    "website": "https://utahoutdoorrentals.com",
+    "website": "https://utahrentals.com",
     "imageFile": "images/utahOutdoorRentals.webp",
     "loyaltyTier": "Bronze"
   },

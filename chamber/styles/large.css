@@ -392,7 +392,12 @@ main.on {
 }
 
 .card h3 {
-    height: 50px;
+    font-size: 100%; 
+}
+
+.card p {
+    font-size: 80%;
+    white-space: normal;
 }
 
 #chamber-main p {
