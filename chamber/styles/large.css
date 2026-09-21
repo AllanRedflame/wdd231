@@ -6,7 +6,7 @@ html body {
     overflow-x: hidden;
 }
 
-h1 {
+#maincontainer h1 {
     background-color: #f2e8cf;
     text-align: center;
     margin-left: 35%;
@@ -538,6 +538,23 @@ nav a:hover {
 #chamber-footer p {
     margin: 0px;
 }
+
+#div-main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+    
+}
+
+#div-main h1 {
+
+}
+
+#hero-img {
+    grid-row: 1fr;
+    place-self: center;
+}
+
 
 
 }
