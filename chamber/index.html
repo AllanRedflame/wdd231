@@ -15,6 +15,7 @@
     <script src="../scripts/navigation.js" defer></script>
     <script src="../scripts/date.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
@@ -52,17 +53,26 @@
 
     <main>
         <div id="div-main">
+            <img id="hero-img" src="images/hero.webp" alt="hero">
 
-  
-        <img id="hero-img" src="images/hero.webp" alt="hero">
-        <h1>Murray Chamber of Commerce</h1>
+            <div id="hero-overlay">
+                <h1>Murray Chamber of Commerce</h1>
+                <p class="cta-text">Empowering local businesses and strengthening our community.</p>
+                <a href="#" class="cta-button">Join Now</a>
+            </div>
+        </div>
 
-        <!--Call to action-->
-        <!--Current events-->
+                            <!--Current events-->
+        <div id="events-div"></div>
+        <div id="weather-div"></div>
+        <p id="spotlight-p">Company Spotlight</p>
+        <div id="spotlights-div">
+
+        </div>
         <!--Weather sections-->
         <!--Company spotlights-->
-        </div>
     </main>
+
 
 
         <footer id="chamber-footer">

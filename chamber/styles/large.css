@@ -332,11 +332,13 @@ main.on {
 }
 
 
+
 .card.off .topDiv {
     background-color: #e4373a;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     height: 65px;
+
 }
 
 .card.off .bottomDiv {
@@ -539,20 +541,120 @@ nav a:hover {
     margin: 0px;
 }
 
+/* HERO WRAPPER */
 #div-main {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     position: relative;
-    
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-#div-main h1 {
-
-}
-
+/* HERO IMAGE */
 #hero-img {
-    grid-row: 1fr;
-    place-self: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: blur(1.2px);
+}
+
+/* OVERLAY CONTAINER */
+#hero-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    pointer-events: none; /* overlay shouldn't block clicks */
+}
+
+/* MAIN TITLE */
+#hero-overlay h1 {
+    color: #f2e8cf;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 4vw, 4rem);
+    margin: 0;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.8),
+                 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+/* CTA TEXT */
+.cta-text {
+    color: #f2e8cf;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin-top: 1rem;
+
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.8),
+                 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+/* CTA BUTTON */
+.cta-button {
+    pointer-events: auto; /* allow clicking */
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+
+    background-color: #e63946;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #d62839;
+    transform: scale(1.05);
+}
+
+#spotlights-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#spotlights-div .card {
+    text-align: center;
+}
+
+#spotlights-div .topDiv {
+    display: grid;
+    background-color: #e4373a;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 65px;
+
+}
+
+#spotlight-p {
+    text-align: center;
+    font-size: 200%;
+    background-color: #f2e8cf;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#spotlights-div .topDiv {
+    place-items: center;
+
+}
+
+#spotlights-div .bottomDiv {
+    background-color: #f2e8cf;
+    padding: 10px;
+}
+
+#spotlights-div img {
+    width: 65%;
+
 }
 
 
