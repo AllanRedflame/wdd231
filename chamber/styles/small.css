@@ -304,21 +304,18 @@ header span {
     padding: 5px;
 }
 
-/* SMALL VIEW HERO WRAPPER */
 #div-main {
     position: relative;
     width: 100%;
     margin: 0 auto;
 }
 
-/* SMALL VIEW HERO IMAGE */
 #hero-img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-/* SMALL VIEW OVERLAY CONTAINER */
 #hero-overlay {
     position: absolute;
     inset: 0;
@@ -328,10 +325,9 @@ header span {
     align-items: center;
 
     text-align: center;
-    pointer-events: none; /* overlay shouldn't block clicks */
+    pointer-events: none; 
 }
 
-/* SMALL VIEW MAIN TITLE */
 #hero-overlay h1 {
     color: white;
     font-family: "Oswald", sans-serif;

@@ -569,7 +569,6 @@ nav a:hover {
     pointer-events: none; 
 }
 
-/* MAIN TITLE */
 #hero-overlay h1 {
     color: #f2e8cf;
     font-family: "Oswald", sans-serif;
@@ -581,7 +580,6 @@ nav a:hover {
                  0 0 40px rgba(0, 0, 0, 0.6);
 }
 
-/* CTA TEXT */
 .cta-text {
     color: #f2e8cf;
     font-size: clamp(1rem, 2vw, 1.5rem);
@@ -683,7 +681,7 @@ nav a:hover {
 
 .event-card {
     background-color: #e4373a;
-    color: #f2e8cf;
+    color: black;
     border-radius: 15px;
     padding: 20px;
     margin: 20px auto;
