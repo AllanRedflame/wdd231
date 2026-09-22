@@ -534,14 +534,14 @@ nav a:hover {
 
 #chamber-icons {
     display: flex;
-    justify-content: center; /* Centers items horizontally */
+    justify-content: center; 
 }
 
 #chamber-footer p {
     margin: 0px;
 }
 
-/* HERO WRAPPER */
+
 #div-main {
     position: relative;
     width: 100%;
@@ -549,7 +549,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-/* HERO IMAGE */
+
 #hero-img {
     width: 100%;
     height: auto;
@@ -557,7 +557,6 @@ nav a:hover {
     filter: blur(1.2px);
 }
 
-/* OVERLAY CONTAINER */
 #hero-overlay {
     position: absolute;
     inset: 0;
@@ -567,7 +566,7 @@ nav a:hover {
     align-items: center;
 
     text-align: center;
-    pointer-events: none; /* overlay shouldn't block clicks */
+    pointer-events: none; 
 }
 
 /* MAIN TITLE */
@@ -655,6 +654,92 @@ nav a:hover {
 #spotlights-div img {
     width: 65%;
 
+}
+
+#spotlights-div .bottomDiv {
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+#weather-div {
+    display:flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#events-section {
+    background-color: #f2e8cf;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#events-section h2 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 250%;
+    margin-bottom: 30px;
+}
+
+.event-card {
+    background-color: #bc4749;
+    color: #f2e8cf;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+}
+
+.event-card h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 180%;
+    margin-bottom: 10px;
+
+    display: grid;
+    place-items: center;
+}
+
+.event-card p {
+    font-size: 120%;
+    margin: 8px 0;
+}
+
+
+#weather-h2 {
+    text-align: center;
+    background-color: #f2e8cf;
+    padding: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 15px;
+}
+
+
+#weather-div .topDiv {
+    display: grid;
+    background-color: #e4373a;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 65px;
+    place-items: center;
+    font-size: 125%;
+
+}
+
+
+
+#weather-div .bottomDiv {
+    background-color: #f2e8cf;
+    font-size: 125%;
+    padding: 15px;
 }
 
 

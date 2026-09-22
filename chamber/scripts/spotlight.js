@@ -17,8 +17,11 @@ async function loadLocalData() {
 loadLocalData().then(data => {
   const main = document.querySelector("#spotlights-div");
 
-  // Build cards
-  for (let i = 0; i < 3; i++) {
+  const shuffled = data.sort(() => Math.random() - 0.5);
+
+  const randomThree = shuffled.slice(0, 3);
+
+  randomThree.forEach(entry => {
 
     const div = document.createElement("div");
     const header = document.createElement("h3");
@@ -30,14 +33,14 @@ loadLocalData().then(data => {
     const bottomDiv = document.createElement("div");
     const topDiv = document.createElement("div");
 
-    image.src = data[i].imageFile;
-    image.alt = data[i].companyName;
+    image.src = entry.imageFile;
+    image.alt = entry.companyName;
 
-    header.textContent = data[i].companyName;
-    address.textContent = `Address: ${data[i].address}`;
-    phone.textContent = `Phone: ${data[i].phone}`;
-    website.textContent = data[i].website;
-    loyalty.textContent = `Loyalty Tier: ${data[i].loyaltyTier}`;
+    header.textContent = entry.companyName;
+    address.textContent = `Address: ${entry.address}`;
+    phone.textContent = `Phone: ${entry.phone}`;
+    website.textContent = entry.website;
+    loyalty.textContent = `Loyalty Tier: ${entry.loyaltyTier}`;
 
     div.classList.add("card");
     topDiv.classList.add("topDiv");
@@ -54,5 +57,5 @@ loadLocalData().then(data => {
     div.appendChild(bottomDiv);
 
     main.appendChild(div);
-  }
+  });
 });
