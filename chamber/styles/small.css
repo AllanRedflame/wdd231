@@ -452,7 +452,7 @@ header span {
 
     .event-card {
         background-color: #e4373a;
-        color: #f2e8cf;
+        color: black;
         border-radius: 12px;
         padding-bottom: 5px;
         margin: 15px auto;
