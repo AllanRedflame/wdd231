@@ -372,7 +372,7 @@ header span {
 }
 
 .cta-button:hover {
-    background-color: #d62839;
+    background-color: #e4373a;
     transform: scale(1.05);
 }
 
@@ -455,7 +455,7 @@ header span {
     }
 
     .event-card {
-        background-color: #bc4749;
+        background-color: #e4373a;
         color: #f2e8cf;
         border-radius: 12px;
         padding-bottom: 5px;

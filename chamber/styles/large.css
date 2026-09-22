@@ -591,9 +591,9 @@ nav a:hover {
                  0 0 30px rgba(0, 0, 0, 0.6);
 }
 
-/* CTA BUTTON */
+
 .cta-button {
-    pointer-events: auto; /* allow clicking */
+    pointer-events: auto; 
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
 
@@ -609,7 +609,7 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #d62839;
+    background-color: #e4373a;
     transform: scale(1.05);
 }
 
@@ -682,7 +682,7 @@ nav a:hover {
 }
 
 .event-card {
-    background-color: #bc4749;
+    background-color: #e4373a;
     color: #f2e8cf;
     border-radius: 15px;
     padding: 20px;
