@@ -612,6 +612,10 @@ nav a:hover {
     text-align: center;
 }
 
+.bottomDiv {
+    height: 130px;
+}
+
 #spotlights-div .topDiv {
     display: grid;
     background-color: #e4373a;
