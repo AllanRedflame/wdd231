@@ -82,7 +82,7 @@ nav a:hover {
 
 }
 
-.home-main {
+#home-main {
     background-color: #f2e8cf;
     margin: 50px;
 
@@ -262,7 +262,7 @@ nav a {
     padding: 5px;
 }
 
-#home-a {
+.home-a {
     background-color: #ab9595;
     border-radius: 10px;
     transition: 0.2s;
