@@ -15,7 +15,6 @@ html body {
 }
 
 header nav {
-    font-size: 150%;
     display: flex;
     align-items: center;
     margin: 30px;
@@ -37,7 +36,7 @@ nav {
 
 header, h1, nav {
     font-family: "Archivo Black", sans-serif;
-    font-size: 150%;
+    font-size: 125%;
 }
 
 main, footer {
@@ -48,7 +47,7 @@ main, footer {
 }
 
 nav {
-    font-size: 275%;
+    font-size: 400%;
     display: flex;
     align-items: center;
     margin: 50px;
