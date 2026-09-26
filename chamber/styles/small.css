@@ -502,6 +502,7 @@ header span {
     padding: 10px;
     border-radius: 10px;
     background-color: #e4373a;
+    font-size: 60%;
 }
 
 #weather-div .bottomDiv {

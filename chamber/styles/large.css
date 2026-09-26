@@ -612,8 +612,8 @@ nav a:hover {
     text-align: center;
 }
 
-.bottomDiv {
-    height: 140px;
+#weather-div .bottomDiv {
+    height: 130px;
 }
 
 #spotlights-div .topDiv {
