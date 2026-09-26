@@ -732,6 +732,13 @@ nav a:hover {
     padding: 15px;
 }
 
+#chamber-a {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
+}
+
 
 
 }

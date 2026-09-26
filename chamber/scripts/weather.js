@@ -48,7 +48,7 @@ function displayWeather(data) {
 
     todayHeader.textContent = "Today";
     todayWeatherP.textContent = `Weather: ${todayWeather}`;
-    todayTempP.textContent = `Temperature: ${todayTemp}°F`;
+    todayTempP.textContent = `Temperature: ${Math.round(todayTemp)}°F`;
 
     todayCard.classList.add("card");
     todayTop.classList.add("topDiv");
@@ -83,7 +83,7 @@ function displayWeather(data) {
 
         header.textContent = date;
         weatherP.textContent = `Weather: ${weather}`;
-        tempP.textContent = `Temperature: ${temp}°F`;
+        tempP.textContent = `Temperature: ${Math.round(temp)}°F`;
 
         card.classList.add("card");
         topDiv.classList.add("topDiv");

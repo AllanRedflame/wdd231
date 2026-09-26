@@ -101,6 +101,8 @@ header span {
         background-color: #ffa5a6;
     }
 
+    
+
     #home-main {
         background-color: #f2e8cf;
 
@@ -410,6 +412,7 @@ header span {
 
 .card {
     padding: 5px;
+
 }
 
 #spotlights-div .bottomDiv {
@@ -481,6 +484,7 @@ header span {
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
+    
 }
 
 #weather-div .topDiv {
@@ -488,6 +492,7 @@ header span {
     padding: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    font-size: 75%;
 }
 
 #weather-h2 {
@@ -502,7 +507,9 @@ header span {
 #weather-div .bottomDiv {
     background-color: #f2e8cf;
     padding: 10px;
+    height: 60px;
     margin-top: auto;
+    font-size: 75%;
 }
 
 #events-header {
