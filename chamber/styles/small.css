@@ -360,7 +360,6 @@ header span {
 }
 
 .cta-button {
-    pointer-events: auto; 
     margin-top: 1rem;
     padding: 0.6rem 1.2rem;
 
