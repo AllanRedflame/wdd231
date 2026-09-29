@@ -67,88 +67,88 @@
         <div id="inputs">
                 <form id="myForm" action="thankyou.html" method="get" onSubmit="validateForm"> 
                 <div id="firstName" class="input-box">
-                    <label>First Name</label>
-                    <input
-                        id="first-name"
-                        type="text"
-                        name="first-name"
-                        required
-                        autocomplete="given-name"
-                        title="Enter your first name">
-                </div>
+    <label for="first-name">First Name</label>
+    <input
+        id="first-name"
+        type="text"
+        name="first-name"
+        required
+        autocomplete="given-name"
+        title="Enter your first name">
+</div>
 
-                <div id="lastName" class="input-box">
-                    <label>Last Name</label>
-                    <input
-                        id="last-name"
-                        type="text"
-                        name="last-name"
-                        required
-                        autocomplete="family-name"
-                        title="Enter your last name">
-                </div>
+<div id="lastName" class="input-box">
+    <label for="last-name">Last Name</label>
+    <input
+        id="last-name"
+        type="text"
+        name="last-name"
+        required
+        autocomplete="family-name"
+        title="Enter your last name">
+</div>
 
-                <div class="input-box">
-                    <label>Organization Title</label>
-                    <input
-                        id="organization-title"
-                        type="text"
-                        name="organization-title"
-                        required
-                        autocomplete="organization-title"
-                        title="Enter your organizational title"
-                        pattern="[A-Za-z\- ]{7,}">                
-                    </div>
+<div class="input-box">
+    <label for="organization-title">Organization Title</label>
+    <input
+        id="organization-title"
+        type="text"
+        name="organization-title"
+        required
+        autocomplete="organization-title"
+        title="Enter your organizational title"
+        pattern="[A-Za-z\- ]{7,}">
+</div>
 
-                <div class="input-box">
-                    <label>Email</label>
-                    <input 
-                    id="email" 
-                    type="email" 
-                    placeholder="example@email.com" 
-                    name="email-box" 
-                    title="Enter your email"
-                    autocomplete="email"
-                    required>
-                </div>
+<div class="input-box">
+    <label for="email">Email</label>
+    <input 
+        id="email" 
+        type="email" 
+        placeholder="example@email.com" 
+        name="email-box" 
+        title="Enter your email"
+        autocomplete="email"
+        required>
+</div>
 
-                <div class="input-box">
-                    <label>Cell Phone Number</label>
-                    <input
-                        id="phone-number"
-                        type="tel"
-                        name="phone-number-box"
-                        required
-                        autocomplete="tel"
-                        title="Enter your mobile phone number">
-                </div>
+<div class="input-box">
+    <label for="phone-number">Cell Phone Number</label>
+    <input
+        id="phone-number"
+        type="tel"
+        name="phone-number-box"
+        required
+        autocomplete="tel"
+        title="Enter your mobile phone number">
+</div>
 
-                <div class="input-box">
-                    <label>Business Name</label>
-                    <input 
-                        id="business-name" 
-                        type="text" 
-                        name="business-name-box" 
-                        required 
-                        autocomplete="organization" 
-                        title="Enter your business or organization name">
-                </div>
+<div class="input-box">
+    <label for="business-name">Business Name</label>
+    <input 
+        id="business-name" 
+        type="text" 
+        name="business-name-box" 
+        required 
+        autocomplete="organization" 
+        title="Enter your business or organization name">
+</div>
 
-                <div class="input-box">
-                    <label>Business Description</label>
-                    <textarea name="description" id="description"></textarea>
-                </div>
+<div class="input-box">
+    <label for="description">Business Description</label>
+    <textarea name="description" id="description"></textarea>
+</div>
 
-              <div class="input-box">
-                    <label>Membership Level</label>
-                    <select id="membership-level">
-                        <option value="placeholder"> Pick an Option</option>
-                        <option value="tier1">Non Profit Membership</option>
-                        <option value="tier2">Bronze Membership</option>
-                        <option value="tier3">Silver Membership</option>
-                        <option value="tier4">Gold Membership</option>
-                    </select>
-                </div>
+<div class="input-box">
+    <label for="membership-level">Membership Level</label>
+    <select id="membership-level" name="membership-level">
+        <option value="placeholder">Pick an Option</option>
+        <option value="tier1">Non Profit Membership</option>
+        <option value="tier2">Bronze Membership</option>
+        <option value="tier3">Silver Membership</option>
+        <option value="tier4">Gold Membership</option>
+    </select>
+</div>
                 <input id="submit-button" type="submit" value="Submit">
                 <input id="date" type="hidden" name="date-accessed" value="placceholder">
             </form>
