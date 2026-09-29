@@ -743,6 +743,154 @@ nav a:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
 }
 
+#join-a {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
+}
 
+#thank-you {
+    text-align: center;
+    background-color: #f2e8cf;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10%;
+}
+
+#join-main {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#inputs {
+    grid-column: 1fr;
+    
+}
+
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    margin-right: 50%;
+    height: 50px;
+}
+
+textarea {
+    margin-right: 25%;
+}
+
+#inputs div {
+    margin: 10px;
+    text-align: center;
+}
+
+input, textarea, select, option {
+    padding-left: 50%;
+    padding-right: 50%;    
 
 }
+
+#tier-information {
+    grid-column: 2fr;
+
+}
+
+#membership-level {
+    text-align: center;
+}
+
+#submit-button {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* GRID LAYOUT */
+#join-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#join-main {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* CARD STYLING */
+.member-card {
+    background-color: #eae0d5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.member-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #bc4749;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.member-card a:hover {
+    background-color: #e4373a;
+}
+
+/* MODAL BASE */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+/* MODAL CONTENT */
+.modal-content {
+    background: #f2e8cf;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.close {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.member-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: cardFadeUp 0.8s ease-out forwards;
+}
+
+@keyframes cardFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+
+}}

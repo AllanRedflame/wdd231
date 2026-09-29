@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Poulsen">
+    <meta name="description" content="Chamber of commerce website for the city of Murray. Join page.">
+    <title>Murray Chamber of Commerce</title>
+
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="../scripts/navigation.js" defer></script>
+    <script src="../scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+
+    <meta property="og:title" content="Murray Chamber of Commerce">
+    <meta property="og:image" content="https://allanredflame.github.io/wdd231/chamber/images/murray.webp">
+    <meta property="og:description" content="Chamber of commerce website for the city of Murray. Directory list for our partners.">
+    <meta property="og:url" content="https://allanredflame.github.io/wdd231/chamber/chamber.html">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+
+    <header>
+        <div id="header-container">
+
+            <img id="header-logo" src="../images/justlogo.webp" alt="Photo">
+
+            <span>Murray Chamber</span>
+
+            <a href="#" id="hamburger">&#9776; </a>
+
+            
+                <nav id="nav-box">
+
+                    <a href="index.html">Home</a>
+                    <a href="directory.html">Directory</a>
+                    <a href="join.html" id="chamber-a">Join</a>
+
+                </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+    <div id="join-main">
+
+        <div id="inputs">
+                <form id="myForm" action="thankyou.html" method="get" onSubmit="validateForm"> 
+                <div id="firstName" class="input-box">
+                    <label>First Name</label>
+                    <input
+                        id="first-name"
+                        type="text"
+                        name="first-name"
+                        required
+                        autocomplete="given-name"
+                        title="Enter your first name">
+                </div>
+
+                <div id="lastName" class="input-box">
+                    <label>Last Name</label>
+                    <input
+                        id="last-name"
+                        type="text"
+                        name="last-name"
+                        required
+                        autocomplete="family-name"
+                        title="Enter your last name">
+                </div>
+
+                <div class="input-box">
+                    <label>Organization Title</label>
+                    <input
+                        id="organization-title"
+                        type="text"
+                        name="organization-title"
+                        required
+                        autocomplete="organization-title"
+                        title="Enter your organizational title"
+                        pattern="[A-Za-z\- ]{7,}">                
+                    </div>
+
+                <div class="input-box">
+                    <label>Email</label>
+                    <input 
+                    id="email" 
+                    type="email" 
+                    placeholder="example@email.com" 
+                    name="email-box" 
+                    title="Enter your email"
+                    autocomplete="email"
+                    required>
+                </div>
+
+                <div class="input-box">
+                    <label>Cell Phone Number</label>
+                    <input
+                        id="phone-number"
+                        type="tel"
+                        name="phone-number-box"
+                        required
+                        autocomplete="tel"
+                        title="Enter your mobile phone number">
+                </div>
+
+                <div class="input-box">
+                    <label>Business Name</label>
+                    <input 
+                        id="business-name" 
+                        type="text" 
+                        name="business-name-box" 
+                        required 
+                        autocomplete="organization" 
+                        title="Enter your business or organization name">
+                </div>
+
+                <div class="input-box">
+                    <label>Business Description</label>
+                    <textarea name="description" id="description"></textarea>
+                </div>
+
+              <div class="input-box">
+                    <label>Membership Level</label>
+                    <select id="membership-level">
+                        <option value="placeholder"> Pick an Option</option>
+                        <option value="tier1">Non Profit Membership</option>
+                        <option value="tier2">Bronze Membership</option>
+                        <option value="tier3">Silver Membership</option>
+                        <option value="tier4">Gold Membership</option>
+                    </select>
+                </div>
+                <input id="submit-button" type="submit" value="Submit">
+                <input id="date" type="hidden" name="date-accessed" value="placceholder">
+            </form>
+
+        </div>
+
+<div id="membership-cards">
+
+        <div class="member-card">
+            <h3>Non Profit Membership Level</h3>
+            <a href="#" data-modal="modal1">More Info</a>
+        </div>
+
+        <div class="member-card">
+            <h3>Bronze membership Level</h3>
+            <a href="#" data-modal="modal2">More Info</a>
+        </div>
+
+        <div class="member-card">
+            <h3>Silver membership Level</h3>
+            <a href="#" data-modal="modal3">More Info</a>
+        </div>
+
+        <div class="member-card">
+            <h3>Gold membership Level</h3>
+            <a href="#" data-modal="modal4">More Info</a>
+        </div>
+
+
+
+
+
+        <div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Mega Awesome Tier</h2>
+        <p>Cost: $1000 annually</p>
+        <p>Benefits: You now know you're attractive.</p>
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Very Cool Tier</h2>
+        <p>Cost: $50</p>
+        <p>Benefits: You feel important.</p>
+    </div>
+</div>
+
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Patently Mediocre Tier</h2>
+        <p>Cost: $25</p>
+        <p>Benefits: You get a shiny badge.</p>
+    </div>
+</div>
+
+<div id="modal4" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Slightly Less Lame Tier</h2>
+        <p>Cost: $1</p>
+        <p>Benefits: Snack bar access.</p>
+    </div>
+</div>
+
+    </div>
+
+</main>
+
+
+
+<footer id="chamber-footer">
+
+        <div id="footer-contact-info">
+            <b>Murray Chamber of Commerce</b>
+            <p>p sherman 42 wallaby way</p>
+            <p>Murray, State St 84123</p>
+            <p>MurrayChamber@fastmail.net</p>
+            <p>801-123-1234</p>
+        </div>
+
+        <div id="chamber-icons">
+            <a href="https://github.com/AllanRedflame/wdd231"> <img src="../images/github.svg" alt="github" id="github-icon"></a>
+            <a href="https://www.linkedin.com/feed"> <img src="../images/linkedin.svg" alt="linkedin" id="linkedin-icon"></a>
+            <a href="https://x.com/"> <img src="../images/xwebsite.svg" alt="x" id="x-icon"> </a>
+            <a href="https://www.facebook.com"> <img src="../images/facebook.svg" alt="facebook" id="facebook-icon"> </a>
+        </div>
+
+
+        <div id="chamber-bot-row">
+            <p>WDD 231 Class Project</p>
+            <p>David Poulsen</p>
+            <p id="current-year">&#169;</p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
