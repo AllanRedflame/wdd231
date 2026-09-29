@@ -760,7 +760,7 @@ nav a:hover {
 }
 
 #inputs {
-    grid-column: 1fr;
+    grid-column: 1;
     
 }
 
@@ -792,7 +792,7 @@ input, textarea, select, option {
 }
 
 #tier-information {
-    grid-column: 2fr;
+    grid-column: 2;
 
 }
 
