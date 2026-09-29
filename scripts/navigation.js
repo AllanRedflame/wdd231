@@ -6,24 +6,26 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('open'); 
 });
 
-// OPEN MODAL
-document.querySelectorAll("[data-modal]").forEach(link => {
-    link.addEventListener("click", e => {
+const modals = document.querySelectorAll(".modal");
+const openButtons = document.querySelectorAll("[data-modal]");
+const closeButtons = document.querySelectorAll(".close");
+
+openButtons.forEach(btn => {
+    btn.addEventListener("click", (e) => {
         e.preventDefault();
-        const modalId = link.getAttribute("data-modal");
+        const modalId = btn.getAttribute("data-modal");
         document.getElementById(modalId).style.display = "flex";
     });
 });
 
-document.querySelectorAll(".close").forEach(btn => {
+closeButtons.forEach(btn => {
     btn.addEventListener("click", () => {
         btn.closest(".modal").style.display = "none";
     });
 });
 
-// CLOSE WHEN CLICKING OUTSIDE CONTENT
-document.querySelectorAll(".modal").forEach(modal => {
-    modal.addEventListener("click", e => {
+window.addEventListener("click", (e) => {
+    modals.forEach(modal => {
         if (e.target === modal) {
             modal.style.display = "none";
         }
