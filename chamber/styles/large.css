@@ -750,13 +750,6 @@ nav a:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
 }
 
-#thank-you {
-    text-align: center;
-    background-color: #f2e8cf;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 10%;
-}
 
 #join-main {
     background-color: #f2e8cf;
@@ -783,9 +776,8 @@ input, select {
     height: 50px;
 }
 
-textarea {
-    margin-right: 25%;
-}
+
+
 
 #inputs div {
     margin: 10px;
@@ -793,8 +785,10 @@ textarea {
 }
 
 input, textarea, select, option {
-    padding-left: 50%;
-    padding-right: 50%;    
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
 
 }
 
@@ -807,12 +801,6 @@ input, textarea, select, option {
     text-align: center;
 }
 
-#submit-button {
-    padding: 10px;
-    margin-left: 10px;
-}
-
-/* GRID LAYOUT */
 #join-main {
     display: grid;
     grid-template-columns: 1fr;
@@ -823,8 +811,6 @@ input, textarea, select, option {
     grid-template-columns: 1fr 1fr;
 }
 
-
-/* CARD STYLING */
 .member-card {
     background-color: #eae0d5;
     padding: 20px;
@@ -848,7 +834,7 @@ input, textarea, select, option {
     background-color: #e4373a;
 }
 
-/* MODAL BASE */
+
 .modal {
     display: none;
     position: fixed;
@@ -858,7 +844,15 @@ input, textarea, select, option {
     align-items: center;
 }
 
-/* MODAL CONTENT */
+#join-heading {
+    background-color: #f2e8cf;
+    text-align: center;
+    padding: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+
 .modal-content {
     background: #f2e8cf;
     padding: 30px;
@@ -880,6 +874,18 @@ input, textarea, select, option {
     transform: translateY(20px);
     animation: cardFadeUp 0.8s ease-out forwards;
 }
+
+
+
+#thank-you-main {
+    background-color: #f2e8cf;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+
+
 
 @keyframes cardFadeUp {
     from {

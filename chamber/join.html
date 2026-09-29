@@ -16,7 +16,7 @@
 
     <script src="../scripts/navigation.js" defer></script>
     <script src="../scripts/date.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/join.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
 
     <meta property="og:title" content="Murray Chamber of Commerce">
@@ -50,7 +50,18 @@
 
     </header>
 
+    <nav id="nav-dropdown">
+
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html" id="join-a">Join</a>
+
+    </nav>
+
     <main>
+
+        <h1 id="join-heading">Join Page</h1>
+
     <div id="join-main">
 
         <div id="inputs">
@@ -144,75 +155,75 @@
 
         </div>
 
-<div id="membership-cards">
+    <div id="membership-cards">
 
-        <div class="member-card">
-            <h3>Non Profit Membership Level</h3>
-            <a href="#" data-modal="modal1">More Info</a>
+            <div class="member-card">
+                <h3>Non Profit Membership Level</h3>
+                <a href="#" data-modal="modal1">More Info</a>
+            </div>
+
+            <div class="member-card">
+                <h3>Bronze membership Level</h3>
+                <a href="#" data-modal="modal2">More Info</a>
+            </div>
+
+            <div class="member-card">
+                <h3>Silver membership Level</h3>
+                <a href="#" data-modal="modal3">More Info</a>
+            </div>
+
+            <div class="member-card">
+                <h3>Gold membership Level</h3>
+                <a href="#" data-modal="modal4">More Info</a>
+            </div>
+
+
+
+
+
+            <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Non Profit Membership Level</h2>
+            <p>Cost: $1000 annually</p>
+            <p>Benefits: You now know you're attractive.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Bronze Membership Level</h2>
+            <p>Cost: $50</p>
+            <p>Benefits: You feel important.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Silver Membership Level</h2>
+            <p>Cost: $25</p>
+            <p>Benefits: You get a shiny badge.</p>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Gold Membership Level</h2>
+            <p>Cost: $1</p>
+            <p>Benefits: Snack bar access.</p>
+        </div>
+    </div>
+
         </div>
 
-        <div class="member-card">
-            <h3>Bronze membership Level</h3>
-            <a href="#" data-modal="modal2">More Info</a>
-        </div>
-
-        <div class="member-card">
-            <h3>Silver membership Level</h3>
-            <a href="#" data-modal="modal3">More Info</a>
-        </div>
-
-        <div class="member-card">
-            <h3>Gold membership Level</h3>
-            <a href="#" data-modal="modal4">More Info</a>
-        </div>
+    </main>
 
 
 
-
-
-        <div id="modal1" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Mega Awesome Tier</h2>
-        <p>Cost: $1000 annually</p>
-        <p>Benefits: You now know you're attractive.</p>
-    </div>
-</div>
-
-<div id="modal2" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Very Cool Tier</h2>
-        <p>Cost: $50</p>
-        <p>Benefits: You feel important.</p>
-    </div>
-</div>
-
-<div id="modal3" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Patently Mediocre Tier</h2>
-        <p>Cost: $25</p>
-        <p>Benefits: You get a shiny badge.</p>
-    </div>
-</div>
-
-<div id="modal4" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Slightly Less Lame Tier</h2>
-        <p>Cost: $1</p>
-        <p>Benefits: Snack bar access.</p>
-    </div>
-</div>
-
-    </div>
-
-</main>
-
-
-
-<footer id="chamber-footer">
+    <footer id="chamber-footer">
 
         <div id="footer-contact-info">
             <b>Murray Chamber of Commerce</b>

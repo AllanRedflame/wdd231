@@ -15,7 +15,6 @@ document.querySelectorAll("[data-modal]").forEach(link => {
     });
 });
 
-// CLOSE MODAL
 document.querySelectorAll(".close").forEach(btn => {
     btn.addEventListener("click", () => {
         btn.closest(".modal").style.display = "none";

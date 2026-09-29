@@ -101,7 +101,14 @@ header span {
         background-color: #ffa5a6;
     }
 
-    
+    #thank-you-main {
+    background-color: #f2e8cf;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
     #home-main {
         background-color: #f2e8cf;
@@ -532,5 +539,141 @@ header span {
     margin: 50px;
 
 }
+
+#join-main {
+    background-color: #f2e8cf;
+}
+
+#join-heading {
+    background-color: #f2e8cf;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+input, textarea, select, option {
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.input-box, #submit-button {
+    margin-left: 15px;
+    padding: 15px;
+}
+
+label {
+    display: block;
+}
+
+.member-card {
+    background-color: #eae0d5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.member-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #bc4749;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.member-card a:hover {
+    background-color: #e4373a;
+}
+
+#membership-cards {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+#join-heading {
+    background-color: #f2e8cf;
+    text-align: center;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+
+    .modal {
+        display: none; /* default */
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.7);
+        justify-content: center;
+        align-items: center;
+        padding: 20px; /* prevents edge clipping */
+    }
+
+    .modal-content {
+        width: 100%;
+        max-width: 350px; /* perfect for phones */
+        background: #f2e8cf;
+        padding: 20px;
+        border-radius: 12px;
+
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+        animation: modalPop 0.25s ease-out;
+    }
+
+    .modal-content h2 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .modal-content p {
+        font-size: 1rem;
+        margin: 8px 0;
+    }
+
+    .close {
+        font-size: 28px;
+        float: right;
+        cursor: pointer;
+        margin-top: -10px;
+        margin-right: -5px;
+    }
+
+
+    @keyframes modalPop {
+        from {
+            transform: scale(0.85);
+            opacity: 0;
+        }
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    #join-a {
+        background-color: #ffa5a6;
+    
+    }
 
 }
