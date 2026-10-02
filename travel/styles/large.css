@@ -5,9 +5,10 @@ header {
     font-size: 200%;
     display: flex;
     border-color: #001c55;
-  align-items: center;   /* vertical centering */
-  justify-content: left; /* optional: horizontal centering */
-  height: 100px;         /* parent must have a height */
+    align-items: center;   
+    justify-content: left; 
+    height: 100px;  
+    font-family: "Archivo Black", sans-serif;;       
 }
 
 header img {
@@ -17,6 +18,7 @@ header img {
 
 body {
     background-color: #001c55;
+    font-family: "Roboto", sans-serif;
 }
 
 main {
