@@ -4,7 +4,7 @@ header {
     padding: 20px;
     font-size: 200%;
     display: flex;
-
+    border-color: #001c55;
   align-items: center;   /* vertical centering */
   justify-content: left; /* optional: horizontal centering */
   height: 100px;         /* parent must have a height */
