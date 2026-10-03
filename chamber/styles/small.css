@@ -679,15 +679,28 @@ label {
     }
 
     .location-card button {
-    padding: 10px;
-    font-family: "Archivo Black", sans-serif;
-    background-color: #e4373a;
-    font-size: 115%;;
+        padding: 10px;
+        font-family: "Archivo Black", sans-serif;
+        background-color: #e4373a;
+        font-size: 115%;;
+        margin-top: auto;
 }
 
 discover-a {
     background-color: #ffa5a6;
     
 }
+
+    #welcome-div {
+        background: #f2e8cf;
+        padding: 15px;
+        margin: 20px auto;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);      
+        margin-left: 20%;
+        margin-right: 20%;    
+    }
 
 }

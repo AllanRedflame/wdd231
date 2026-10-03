@@ -8,9 +8,7 @@ export const items = [
     features a giant 4‑story water slide, 1‑meter diving 
     boards, a zero‑depth beach‑style entry, multiple water 
     play features, and large deck and grass areas for 
-    relaxing. It’s designed as a family‑friendly place 
-    to swim, cool off, and enjoy summer activities in the 
-    heart of Murray.`,
+    relaxing.`,
     image: "images/aquatic-center.webp"
   },
 
@@ -20,10 +18,7 @@ export const items = [
     description: `The Murray Game Show Battle Rooms is a high‑energy, 
     interactive entertainment venue where groups step 
     into fully produced game‑show arenas and compete in 
-    fast‑paced challenges. Guided by charismatic hosts, 
-    players face off in teams through survey battles, 
-    giant wheel spins, skill challenges, and other classic 
-    game‑show formats, all packed into an hour‑long experience.`,
+    fast‑paced challenges.`,
     image: "images/battle-rooms.webp"
   },
 
