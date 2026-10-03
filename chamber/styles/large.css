@@ -96,7 +96,7 @@
 
     }
 
-    #discover-a {
+    .discover-a {
         background-color: #ab9595;
         border-radius: 10px;
         transition: 0.2s;
@@ -919,7 +919,7 @@
         min-height: 400px;
     }
 
-
+    #
 
     .location-card button {
         padding: 10px;
