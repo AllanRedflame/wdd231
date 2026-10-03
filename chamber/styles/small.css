@@ -671,4 +671,23 @@ label {
     
     }
 
+    .location-card {
+        background-color: #f2e8cf;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .location-card button {
+    padding: 10px;
+    font-family: "Archivo Black", sans-serif;
+    background-color: #e4373a;
+    font-size: 115%;;
+}
+
+discover-a {
+    background-color: #ffa5a6;
+    
+}
+
 }

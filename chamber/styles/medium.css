@@ -1,0 +1,210 @@
+@media (min-width: 641px) and (max-width: 1024px) {
+    html body {
+    background: #3f3437;
+    overflow-x: hidden;
+}
+
+#main-container h1 {
+    background-color: #f2e8cf;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    grid-column: 4;
+
+}
+
+header nav a {
+    margin: 20px;
+    margin-left: auto;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav {
+    background-color: #f2e8cf;
+}
+
+header, h1, nav {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 125%;
+}
+
+main, footer {
+    font-family: "Roboto", sans-serif;
+}
+#hamburger {
+    display: none;
+}
+
+nav {
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+
+}
+
+#dropdown-a {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
+}
+
+#nav-dropdown {
+    display: none;
+}
+
+
+nav a:hover {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#header-container {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px;
+    place-items: center;
+
+}
+
+#header-logo {
+    width: 120px;
+    height: auto;
+    margin: 20px;
+
+}
+
+.location-card {
+    background-color: #f2e8cf;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#discover-a {
+    background-color: #ab9595;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
+
+}
+
+    .location-card button {
+    padding: 10px;
+    font-family: "Archivo Black", sans-serif;
+    background-color: #e4373a;
+    font-size: 115%;;
+}
+
+
+    .murrayaquaticcenter { grid-area: aquatic; }
+    .gameshowbattlerooms { grid-area: battle; }
+    .jordanriverparkway  { grid-area: jordan; }
+    .murraycitypark      { grid-area: murray; }
+    .murraytheater       { grid-area: theater; }
+    .wheelerhistoricfarm { grid-area: wheeler; }
+    .woodstockmeadowpark { grid-area: woodstock; }
+    .fashionplacemall    { grid-area: fashion; }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "aquatic battle"
+      "jordan murray"
+      "theater woodstock"
+      "fashion wheeler";
+    justify-items: center;
+    align-items: start;
+    margin: 0 auto;
+  }
+
+  .location-card {
+    width: 90%;
+    height: 90%;
+    margin: 20px auto;
+}
+
+.location-card button:hover {
+    box-shadow: 0 0px 33px rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+    filter: brightness(1.2);
+}
+
+.location-card img {
+    transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s ease,
+    filter 0.2s ease;
+}
+
+  .location-card img:hover {
+
+    box-shadow: 0 0px 33px rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+    filter: brightness(1.2);
+}
+
+
+
+
+
+
+
+#chamber-footer {
+    background-color: #f2e8cf;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+#chamber-bot-row {
+    margin-top: 0px;
+    margin: 0%;
+}
+
+#chamber-icons img {
+    width: 40px;
+    margin: auto;
+    margin-bottom: 50%;
+    margin-top: 50%;
+    padding: 5px;
+
+}
+
+#chamber-icons a {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+#chamber-icons a:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+#chamber-icons {
+    display: flex;
+    justify-content: center; 
+}
+
+#chamber-footer p {
+    margin: 0px;
+}
+}
