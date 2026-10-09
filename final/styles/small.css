@@ -51,12 +51,9 @@
 
     main {
         margin-bottom: 25px;
-    }
-
-    main {
         position: relative;
         width: 100%;
-}   
+    }
 
     .hero-wrapper {
         position: relative;
@@ -205,7 +202,7 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 5px;
+        font-size: 0.8rem;
         cursor: pointer;
         transition: 0.3s;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -286,7 +283,190 @@
         transform: translate(-50%, -10px);
     }
 
+#join-main {
+    background-color: var(--main-color);
+    padding: 1.5rem 2rem;   /* wider horizontal padding */
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border-radius: 8px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    width: 100%;
+    max-width: 400px;   /* centers the whole block */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    width: 90%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 12px;
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+    font-family: var(--second-font);
+}
+
+nav a {
+    background-color: #0f8e8f;
+    border-radius: 2px;;
+}
 
 
+    #submit-button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1.1rem;
+        background-color: var(--second-accent);
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+
+    #submit-button:hover {
+        background-color: #44c7c7;
+    }
+
+    /* Thank You Page Small View */
+    #thank-you-div {
+        background-color: var(--main-color);
+        padding: 1.5rem;
+        margin: 1rem;
+        border-radius: 8px;
+        text-align: center;
+        font-family: var(--second-font);
+        font-size: 1.1rem;
+    }
+
+
+#locations-section h1 {
+        text-align: center;
+        font-family: var(--main-font);
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    /* Locations Grid */
+    #locations-container {
+        display: grid;
+        grid-template-columns: 1fr; /* single column on mobile */
+        gap: 1.2rem;
+        padding: 0 1rem;
+    }
+
+    /* Location Cards */
+    .location-card {
+        background-color: var(--main-color);
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.25);
+        color: black;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .location-card h3 {
+        font-family: var(--main-font);
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .location-card p {
+        font-size: 0.95rem;
+        margin: 0.3rem 0;
+        font-family: var(--second-font);
+    }
+
+    .location-card button {
+        margin-top: 0.8rem;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: var(--second-font);
+        font-size: 1rem;
+        transition: 0.3s;
+        width: 100%; /* full width button on mobile */
+    }
+
+    .details-btn {
+        background-color: var(--second-accent);
+        color: white;
+    }
+
+    .favorite-btn {
+        background-color: var(--accent-color);
+        color: white;
+        margin-top: 0.5rem;
+    }
+
+    .modal-content {
+        width: 90%;
+        max-width: 350px;
+        padding: 1.5rem;
+        border-radius: 10px;
+        background-color: var(--main-color);
+        text-align: center;
+
+            display: block;        /* prevents flex inheritance */
+    position: relative;
+    }
+
+    #modal-title {
+        font-family: var(--main-font);
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .modal-content p {
+        font-size: 1rem;
+        margin: 0.4rem 0;
+        font-family: var(--second-font);
+    }
+
+    .modal[aria-hidden="true"] {
+    display: none;
+}
+
+#modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: var(--accent-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
     
 }
