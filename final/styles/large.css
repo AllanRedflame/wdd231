@@ -226,27 +226,24 @@
         padding-bottom: 20px;
     }
 
-    #join-div a {
-        text-decoration: none;
-        color:black;
-        
-    }
 
-    #join-div button {
+    #join-div a {
         background-color: var(--second-accent);
         border: none;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 20px;
         cursor: pointer;
         transition: 0.3s;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         border-radius: 2px;
+        text-decoration: none;
+        color:black;
     }
 
-    #join-div button:hover {
+    #join-div a:hover {
         background-color: #44c7c7;
         transition: 0.3s;
 
@@ -265,21 +262,21 @@
         padding-bottom: 20px;
     }
 
-    #discover-div button {
+    #discover-div a {
         background-color: var(--second-accent);
         border: none;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 20px;
         cursor: pointer;
         transition: 0.3s;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         border-radius: 2px;
     }
 
-    #discover-div button:hover {
+    #discover-div a:hover {
         background-color: #44c7c7;
         transition: 0.3s;
     }
