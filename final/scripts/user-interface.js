@@ -1,4 +1,4 @@
-import { toggleFavorite, getFavorites } from './api.js';
+import { toggleFavorite, getFavorites } from './fetch.js';
 
 const container = document.querySelector('#locations-container');
 const modal = document.querySelector('#location-modal');

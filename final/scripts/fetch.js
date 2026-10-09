@@ -1,8 +1,8 @@
 export async function fetchLocations() {
-  const url = 'data/data.json';
+  const path = 'data/data.json';
 
   try {
-    const response = await fetch(url);
+    const response = await fetch(path);
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);

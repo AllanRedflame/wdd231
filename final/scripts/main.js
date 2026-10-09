@@ -1,4 +1,4 @@
-import { fetchLocations } from './api.js';
+import { fetchLocations } from './fetch.js';
 import { renderLocations } from './user-interface.js';
 
 async function init() {
