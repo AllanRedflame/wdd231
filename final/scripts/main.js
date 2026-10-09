@@ -1,5 +1,5 @@
 import { fetchLocations } from './api.js';
-import { renderLocations } from './ui.js';
+import { renderLocations } from './user-interface.js';
 
 async function init() {
   const locations = await fetchLocations();
