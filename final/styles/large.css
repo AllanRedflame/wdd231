@@ -68,7 +68,7 @@
     .hero-wrapper {
         position: relative;
         width: 100%;
-        margin: 0 auto;    /* optional centering */
+        margin: 0 auto;    
     }
 
     #hero-img {
@@ -87,10 +87,10 @@
 
     #hero-overlay {
         position: absolute;
-        inset: 0;                 /* overlay matches image size */
+        inset: 0;  
         display: flex;
         flex-direction: column;
-        justify-content: space-between; /* h1 at top, p at bottom */
+        justify-content: space-between; 
         padding: 1rem;
         color: white;
         text-shadow: 0 0 10px rgba(0,0,0,0.6);
